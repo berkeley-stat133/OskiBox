@@ -11,7 +11,7 @@ The following instructions describe the steps you need to follow in order to ins
 
 To run the virtual machine, you’ll need the two components:
 
-* A copy of the cloud machine in the form of a file named [oski.ova](http://www.stat.berkeley.edu/share/scf/oski.ov) (which is available through this link)
+* A copy of the cloud machine in the form of a file named [oski.ova](http://www.stat.berkeley.edu/share/scf/oski.ova) (which is available through this link)
 
 * The Oracle VirtualBox program, which is able to run the oski.ova; VirtualBox is free to download and use. 
 
@@ -19,10 +19,10 @@ Before starting the installation, make sure that you have access to a fast enoug
 
 ###Here are the steps:
 
-* Download the latest version of Oracle VirtualBox for you computer and install it; the installation is a standard one: click on the installer and follow the instructions.
+* [Download the latest version of Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads) on you computer and install it; the installation is a standard one: click on the installer and follow the instructions.
 
 
-* Download the oski.ova file on your computer.
+* [Download the oski.ova](http://www.stat.berkeley.edu/share/scf/oski.ova) file on your computer.
  
 
 When both downloads are over, locate the VirtualBox application on your machine and launch it.
