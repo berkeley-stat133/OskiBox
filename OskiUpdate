@@ -1,0 +1,51 @@
+#!/bin/bash
+
+apt-get update
+apt-get dist-upgrade
+apt-get install libxml2-dev libxslt1-dev python-dev
+apt-get install nodejs
+
+pip install --upgrade lxml
+pip install --upgrade markdown
+pip install --upgrade ipython
+pip install --upgrade pelican
+pip install --upgrade pyzmq
+pip install --upgrade tornado
+
+apt-get install r-cran-colorspace
+apt-get install r-cran-dbi
+apt-get install r-cran-devtools
+apt-get install r-cran-dichromat
+apt-get install r-cran-digest
+apt-get install r-cran-doParallel
+apt-get install r-cran-foreach
+apt-get install r-cran-ggplot2
+apt-get install r-cran-gtable
+apt-get install r-cran-inline
+apt-get install r-cran-knitr
+apt-get install r-cran-labeling
+apt-get install r-cran-lme4
+apt-get install r-cran-mapproj
+apt-get install r-cran-maps
+apt-get install r-cran-munsell
+apt-get install r-cran-nlme
+apt-get install r-cran-plyr
+apt-get install r-cran-proto
+apt-get install r-cran-rbenchmark
+apt-get install r-cran-rcolorbrewer
+apt-get install r-cran-rcpp
+apt-get install r-cran-reshape2
+apt-get install r-cran-rjava
+apt-get install r-cran-rson
+apt-get install r-cran-rsqlite
+apt-get install r-cran-runit
+apt-get install r-cran-scales
+apt-get install r-cran-spam
+apt-get install r-cran-stringr
+apt-get install r-cran-xlsx
+apt-get install r-cran-xlsxjars
+apt-get install r-cran-xml
+
+apt-get install r-cran-scraper
+apt-get install r-cran-rjsonio
+apt-get install r-cran-httprequest
