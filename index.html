@@ -1,33 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Oskibox by berkeley-stat133</title>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Oskibox : " />
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Oskibox</title>
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Oskibox</h1>
-        <p></p>
 
-        <p class="view"><a href="https://github.com/berkeley-stat133/OskiBox">View the Project on GitHub <small>berkeley-stat133/OskiBox</small></a></p>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/berkeley-stat133/OskiBox">View on GitHub</a>
 
+          <h1 id="project_title">Oskibox</h1>
+          <h2 id="project_tagline"></h2>
 
-        <ul>
-          <li><a href="https://github.com/berkeley-stat133/OskiBox/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/berkeley-stat133/OskiBox/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/berkeley-stat133/OskiBox">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/berkeley-stat133/OskiBox/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/berkeley-stat133/OskiBox/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
         <h1>
 <a name="oskibox" class="anchor" href="#oskibox"><span class="octicon octicon-link"></span></a>OskiBox</h1>
 
@@ -59,6 +62,18 @@
 <li>Once done, you’ll see your virtual machine listed as <code>OskiBox</code> in the main window of the <code>VirtualBox</code> program; select this machine and press <code>Start</code> (the green arrow above) .</li>
 <li>Wait a few minutes and your virtual machine will be up and running with the same type of environment that you had in the cloud.</li>
 </ul><h2>
+<a name="updating-the-oskibox" class="anchor" href="#updating-the-oskibox"><span class="octicon octicon-link"></span></a>Updating the OskiBox</h2>
+
+<p>The software installed in OskiBox may not always be the latest version (depending on the class necessity). You can always updating <code>OskiBox</code> by cloning this repository and running the bash script that it contains by typing in a terminal the following command:</p>
+
+<pre><code>sudo -i
+git clone https://github.com/berkeley-stat133/OskiBox.git
+cd OskiBox
+chmod 755 ./OskiUpdate
+./OskiUpdate
+</code></pre>
+
+<h2>
 <a name="troubleshooting" class="anchor" href="#troubleshooting"><span class="octicon octicon-link"></span></a>Troubleshooting</h2>
 
 <p>If the virtual machine fails to boot and you only see a black screen, your laptop may not have its hardware virtualization feature turned on. If so, you’ll need to change this setting in your computer’s BIOS. To do so you can try these instructions based on Red Hat instructions:</p>
@@ -71,12 +86,17 @@
 <li>Save your changes and reboot.</li>
 </ul>
       </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/berkeley-stat133">berkeley-stat133</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Oskibox maintained by <a href="https://github.com/berkeley-stat133">berkeley-stat133</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+
     
+
   </body>
 </html>
