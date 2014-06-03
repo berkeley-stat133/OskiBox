@@ -28,6 +28,21 @@ Before starting the installation, make sure that you have access to a fast enoug
 * Wait a few minutes and your virtual machine will be up and running with the same type of environment that you had in the cloud.
 
 
+##Updating the OskiBox
+
+The software installed in OskiBox may not always be the latest version (depending on the class necessity). You can always updating `OskiBox` by cloning this repository and running the bash script that it contains by typing in a terminal the following command:
+
+```
+sudo -i
+git clone
+cd OskiBox
+chmod 755 ./OskiUpdate
+./OskiUpdate
+```
+
+
+
+
 
 ##Troubleshooting
 
