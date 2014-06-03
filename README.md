@@ -1,24 +1,30 @@
 OskiBox
 =======
 
-OskiBox is a virtual Ubuntu machine powered by the free software `VirtualBox` from Oracle. It comes equipped with data analysis tools in python and R. 
-The following instructions describe the steps you need to follow in order to install a copy of the cloud machine on your own computer. This way, you’ll have all the software needed for the class (R, python, RStudio, the ipython notebook, latex, gedit, etc.) running locally on your machine in a virtual Linux environment. 
-The advantage is that (1) it will be must faster than the cloud, (2) you’ll be able to configure it exactly as you want, and (3) you’ll be able to keep this virtual linux machine after the class ends, and use it for any data analysis project that’ll cross your way.
+[OskiBox](http://www.stat.berkeley.edu/share/scf/oski.ova) is a virtual Ubuntu machine powered by the free software [VirtualBox](https://www.virtualbox.org/wiki/Downloads) from Oracle. It comes equipped with data analysis tools in python and R (RStudio, ipython, latex, gedit, etc.)
+
+The following instructions describe the steps you need to follow in order to install it on your computer. 
+
 
 ##Set up instructions
 
 
 To run the virtual machine, you’ll need the two components:
 
-A copy of the cloud machine in the form of a file named oski.ova (which is available through this link)
-The Oracle VirtualBox program, which is able to run the oski.ova; VirtualBox is free to download and use. 
+* A copy of the cloud machine in the form of a file named [oski.ova](http://www.stat.berkeley.edu/share/scf/oski.ov) (which is available through this link)
 
-Before starting the installation, make sure that you have access to a fast enough internet connection, because the oski.ova file is quite large. Airbears from within the campus works well, and you must expect up to a 15 minutes wait for the download to complete from the campus Airbears. It can take several hours from a slow home connection. 
+* The Oracle VirtualBox program, which is able to run the oski.ova; VirtualBox is free to download and use. 
 
-Here are the steps:
+Before starting the installation, make sure that you have access to a fast enough internet connection, because the `oski.ova` file is quite large. Airbears from within the campus works well, and you must expect up to a 15 minutes wait for the download to complete from the campus Airbears. It can take several hours from a slow home connection. 
 
-Download the latest version of Oracle VirtualBox for you computer and install it; the installation is a standard one: click on the installer and follow the instructions.
-Download the oski.ova file on your computer.
+###Here are the steps:
+
+* Download the latest version of Oracle VirtualBox for you computer and install it; the installation is a standard one: click on the installer and follow the instructions.
+
+
+* Download the oski.ova file on your computer.
+ 
+
 When both downloads are over, locate the VirtualBox application on your machine and launch it.
 Select the drop-menu “File” and choose “Import Appliance”.
 You’ll be prompted to choose a file: choose the file oski.ova that you downloaded.
