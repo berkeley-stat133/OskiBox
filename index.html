@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Oskibox by berkeley-stat133</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Oskibox</h1>
+        <p></p>
+
+        <p class="view"><a href="https://github.com/berkeley-stat133/OskiBox">View the Project on GitHub <small>berkeley-stat133/OskiBox</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/berkeley-stat133/OskiBox/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/berkeley-stat133/OskiBox/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/berkeley-stat133/OskiBox">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="oskibox" class="anchor" href="#oskibox"><span class="octicon octicon-link"></span></a>OskiBox</h1>
+
+<p><a href="http://www.stat.berkeley.edu/share/scf/oski.ova">OskiBox</a> is a virtual Ubuntu machine powered by the free software <a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox</a> from Oracle. It comes equipped with data analysis tools in python and R (RStudio, ipython, latex, gedit, etc.)</p>
+
+<p>The following instructions describe the steps you need to follow in order to install it on your computer. </p>
+
+<h2>
+<a name="set-up-instructions" class="anchor" href="#set-up-instructions"><span class="octicon octicon-link"></span></a>Set up instructions</h2>
+
+<p>To run the virtual machine, you’ll need the two components:</p>
+
+<ul>
+<li><p>A copy of the cloud machine in the form of a file named <a href="http://www.stat.berkeley.edu/share/scf/oski.ova">oski.ova</a> (which is available through this link)</p></li>
+<li><p>The Oracle VirtualBox program, which is able to run the oski.ova; VirtualBox is free to download and use. </p></li>
+</ul><p>Before starting the installation, make sure that you have access to a fast enough internet connection, because the <code>oski.ova</code> file is quite large. Airbears from within the campus works well, and you must expect up to a 15 minutes wait for the download to complete from the campus Airbears. It can take several hours from a slow home connection. </p>
+
+<h3>
+<a name="here-are-the-steps" class="anchor" href="#here-are-the-steps"><span class="octicon octicon-link"></span></a>Here are the steps:</h3>
+
+<ul>
+<li>
+<a href="https://www.virtualbox.org/wiki/Downloads">Download the latest version of Oracle VirtualBox</a> on you computer and install it; the installation is a standard one: click on the installer and follow the instructions.</li>
+<li>
+<a href="http://www.stat.berkeley.edu/share/scf/oski.ova">Download the oski.ova</a> file on your computer.</li>
+<li>When both downloads are over, locate the <code>VirtualBox</code> application on your machine and launch it.</li>
+<li>Select the drop-menu <code>File</code> and choose <code>Import Appliance</code>. You’ll be prompted to choose a file: choose the file <code>oski.ova</code> that you downloaded.</li>
+<li>Then press <code>Next</code> and then <code>Import</code>: Now the virtual machine is being assembled, which may take up to 15 minutes.</li>
+<li>Once done, you’ll see your virtual machine listed as <code>OskiBox</code> in the main window of the <code>VirtualBox</code> program; select this machine and press <code>Start</code> (the green arrow above) .</li>
+<li>Wait a few minutes and your virtual machine will be up and running with the same type of environment that you had in the cloud.</li>
+</ul><h2>
+<a name="troubleshooting" class="anchor" href="#troubleshooting"><span class="octicon octicon-link"></span></a>Troubleshooting</h2>
+
+<p>If the virtual machine fails to boot and you only see a black screen, your laptop may not have its hardware virtualization feature turned on. If so, you’ll need to change this setting in your computer’s BIOS. To do so you can try these instructions based on Red Hat instructions:</p>
+
+<ul>
+<li>Reboot your computer</li>
+<li>Right when the computer is coming up from the black screen, press <code>Delete</code>, <code>Esc</code>, <code>F1</code>, <code>F2</code>, or <code>F4</code>. Each computer manufacturer uses a different key but it should show a brief message at boot telling you which one to press. If you miss it the first time, reboot and try again. It helps to tap the key about twice a second when the computer is coming up.</li>
+<li>In the BIOS settings, find the configuration items related to the CPU. These can be in under the headings <code>Processor</code>, <code>Chipset</code> or <code>Northbridge</code>.</li>
+<li>Enable virtualization; the setting may be called <code>VT-x</code>, <code>AMD-V</code>, <code>SVM</code>, or <code>Vanderpool</code>. Enable <code>Intel VT-d</code> or <code>AMD IOMMU</code> if the options are available.</li>
+<li>Save your changes and reboot.</li>
+</ul>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/berkeley-stat133">berkeley-stat133</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
