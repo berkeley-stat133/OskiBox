@@ -34,7 +34,7 @@ The software installed in OskiBox may not always be the latest version (dependin
 
 ```
 sudo -i
-git clone
+git clone https://github.com/berkeley-stat133/OskiBox.git
 cd OskiBox
 chmod 755 ./OskiUpdate
 ./OskiUpdate
