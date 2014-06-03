@@ -20,19 +20,14 @@ Before starting the installation, make sure that you have access to a fast enoug
 ###Here are the steps:
 
 * [Download the latest version of Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads) on you computer and install it; the installation is a standard one: click on the installer and follow the instructions.
-
-
 * [Download the oski.ova](http://www.stat.berkeley.edu/share/scf/oski.ova) file on your computer.
- 
+* When both downloads are over, locate the `VirtualBox` application on your machine and launch it.
+* Select the drop-menu `File` and choose `Import Appliance`. You’ll be prompted to choose a file: choose the file `oski.ova` that you downloaded.
+* Then press `Next` and then `Import`: Now the virtual machine is being assembled, which may take up to 15 minutes.
+* Once done, you’ll see your virtual machine listed as `OskiBox` in the main window of the `VirtualBox` program; select this machine and press `Start` (the green arrow above) .
+* Wait a few minutes and your virtual machine will be up and running with the same type of environment that you had in the cloud.
 
-When both downloads are over, locate the VirtualBox application on your machine and launch it.
-Select the drop-menu “File” and choose “Import Appliance”.
-You’ll be prompted to choose a file: choose the file oski.ova that you downloaded.
-Then press “Next” and them “Import”: Now the virtual machine is being assembled, which may take up to 15 minutes.
-Once done, you’ll see your virtual machine listed as “OskiBox” in the main window of the VirtualBox program; select this machine and press “Start” (the green arrow above) .
-Wait a few minutes and your virtual machine will be up and running with the same type of environment that you had in the cloud.
 
-Good luck with your installation!
 
 Troubleshooting
 
